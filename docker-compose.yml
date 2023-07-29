@@ -1,0 +1,11 @@
+services:
+
+  site_1:
+    build: site
+    ports:
+      - "8080:80"
+  
+  site_2:
+    build: site2   
+    ports:
+      - "8088:80"
